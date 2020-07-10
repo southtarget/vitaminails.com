@@ -1,0 +1,12 @@
+Como se colocan los tips:
+1 Luego de haber preparado las uñas, debemos tomar un tips y medirlo en la uña correspondiente, tomando en cuenta medir desde un extremo a otro de la uña desde los laterales y corroborar que el tips al colocar sobre la uña sin ejercer presión no se abra en los laterales, eso me dará la certeza que el tips no sea pequeño para esa uña.
+2 Una vez medidos todos los tips en cada una se procede a pegarlos, los mismos se pegan con resina, se utiliza una pequeña gota de resina sobre el tips, en la zona de la luneta que traen, sin ejercer presión sobre la uña procedemos a pegar cada tips.
+3 Ya pegado cada tips, observo que no queden pliegues en la unión del tips con la uña, de ser asi, con una lima grano fino rebajare un poco esa zona para disimular esa unión.
+4 Con lima daré forma a estos tips, si es uñas coffin, si son stileto o bien square. 
+5 Ya con la forma adecuada de lo que eligió la clienta se procede a encapsular con acrílico o tech gel - poligel. Colocar pequeñas perlas para evitar no dejarlas tan gruesas.
+6 Una vez ya colocado el acrílico, se lima con lima para acrílico, se sella zona de cutícula y se da el largo deseado.
+7 Limpiaremos cada uña quitando el polvo y suciedad para así poder esmaltar las uñas.
+El tiempo que lleva realizar este servicio es de 2 horas y 20 aproximadamente. En distintos salones de Mexico se cobra un precio para cada servicio y muchas veces encontramos que para servicios simples y de salón hay un abanico amplio de precios que terminan mareando a la clienta. En el caso de VITAMINAILS ofrece un servicio diferente, por comenzar, siempre se le realiza a la clienta manicure rusa a menos que esta no lo desee y prefiera no cortar cutículas, se continúa con preparación de la uña y luego esmalte gelish que corresponde al servicio más simple y de elección. Un servicio de este tipo el precio es de $200, si la clienta elige tips con acrílico se le informa que el costo adicional es de $100 más, donde el servicio termina costando $300.
+
+También en VITAMINAILS se ofrece el servicio de acripie, en qué consiste?
+Este mismo servicio se realiza usualmente en clientas que presentan alguna lesión en alguna de sus uñas de los pies y requieren un tipo de emparchado acrilico para simular la uña natural. Este tipo de servicio puede realizarse en acrilico solo o acrílico con tips. El costo adicional al servicio de pedicure es de $50 más, el valor final es de $300.

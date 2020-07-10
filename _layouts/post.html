@@ -3,37 +3,40 @@ layout: default
 ---
 
 <article class="post detailed">
-  <h1>{{ page.title }}</h1>
-
-  <div>
-    <p class="author_title">{{site.author}}  ·  {{ page.date | date: "%B %e, %Y" }}</p>
-    {% if page.last_modified_at %}
-    <p class="author_title" datetime="{{ page.last_modified_at | date_to_xmlschema }}">(Updated: {{ page.last_modified_at | date: "%b %-d, %Y" }})</p>
-    {% endif %}
-    <div class="post-tags">
+  <h1><a href="{{ site.url }}/{{ page.url }}">{{ page.title }}</a></h1>
+  <div class="post-top">
       {% if post %}
         {% assign categories = post.categories %}
       {% else %}
         {% assign categories = page.categories %}
       {% endif %}
       {% for category in categories %}
-        <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+        <strong><a alt="Enlace para ver más sobre {{category}}" title="Ver más articulos sobre {{category}}" href='{{site.url}}/{{category|slugize|downcase|replace:"ñ","n"|replace:" ","-"}}'>{{category}}</a></strong>
         {% unless forloop.last %}&nbsp;{% endunless %}
       {% endfor %}
-    </div>
+      » {{ page.title }}
   </div>
     
   <div class="entry">
     {{ content }}
   </div>
 
-  <div>
-    <p><span class="share-box">Share:</span> <a href="http://twitter.com/share?text={{ page.title }}&url={{site.url}}{{page.url}}" target="_blank">Twitter</a>, <a href="https://www.facebook.com/sharer.php?u={{site.url}}{{page.url}}" target="_blank">Facebook</a></p>
+  {% include social-share.html %}
+
+  <div class="post-bottom">
+    <div class="row">
+      <div class="col-2">
+        <img class="mt-3" src="/images/foto-natalia-miniatura.png">
+      </div>
+      <div class="col-10 pl-2">
+        <p>Escrito por <a href="{{ site.url }}/acerca-de-vitaminails"><strong>{{site.author}}</strong></a> el {% include date-spanish.html %}.</p>
+        <p>Si tienes alguna duda al respecto y quieres comunicarte con Natalia lo puedes hacer directamente desde la <a href="{{ site.url }}/contacto/">Página de Contacto de Vitaminails</a> (o <a href="{{ site.url }}/contacto/">haciendo click aquí</a>). Si te gustaría tener más <a href="{{ site.url }}/servicios/">información sobre nuestros servicios de uñas</a>: <a href="{{ site.url }}/servicios/">haz click aquí</a>.</p>
+      </div>
+    </div>
   </div>
 
   <!--<div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>-->
 
-  {% include disqus.html %}
 </article>

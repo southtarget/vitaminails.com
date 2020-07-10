@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  Pullquotes
-categories: [HTML,Code]
+categories: [Uñas Acrilicas]
+permalink: pullquotes
 excerpt: In graphic design, a pull quote (also known as a lift-out pull quote) is a key phrase, quotation, or excerpt that has been pulled from an article and used as a page layout graphic element, serving to entice readers into the article or to highlight a key topic.
 ---
 
@@ -11,4 +12,7 @@ Placement of a pull quote on a page may be defined in a publication's or website
 
 Pull quotes need not be a verbatim copy of the text being quoted; depending on a publication's house style, pull quotes may be abbreviated for space or paraphrased for clarity, with or without indication.
 
+
 A disadvantage of pull quotes as a design element is that they can disrupt the reading process of readers invested in reading the text sequentially by drawing attention to ghost fragments out of context. At the other extreme, when pull quotes are used to break up what would otherwise be a formless wall of text, pull quote can serve as visual landmarks to help the reader maintain a sense of sequence and place.
+
+jaja

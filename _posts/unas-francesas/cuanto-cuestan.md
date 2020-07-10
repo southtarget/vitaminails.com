@@ -1,0 +1,2 @@
+Cuanto cuestan las uñas francesas?
+El costo de realizarte uñas francesas varía según el producto que elijas, en VITAMINAILS realizarte uñas french en esmalte semipermanente o gelish ya está incluido dentro del servicio completo de manicure, el mismo es de $200. Y si tu prefieres en acrílico, el trabajo y el tiempo se incrementa aún más, lo  cual deberías contar desde los $500 en adelante. El trabajo en acrílico puede ser de dos maneras, que sea solo acrílico de dos tonos o bien acrílico transparente o crystal y luego se realiza esmaltado gelish con diseño french.

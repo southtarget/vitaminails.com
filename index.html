@@ -2,6 +2,50 @@
 layout: default
 ---
 
+<div class="about">
+  <section class="about">
+    <div class="row">
+      <div class="col-5">
+        <img data-echo="{{ site.url }}/images/natalia-carena-de-vitaminails-experta-en-unas.jpg" class="nataliaprofile" alt="Natalia Carena de Vitaminails" title="Natalia Carena de Vitaminails">
+      </div>
+      <div class="col-7">
+        <p>¡Bienvenidas a <strong>Vitaminails</strong>! Soy Natalia y estoy muy contenta de que estés visitando mi sitio web. Vitaminails se trata de la <strong>salud y belleza de tus manos y pies</strong>. Nuestros servicios son completamente personalizables para que tengas la mejor experiencia posible.</p>
+
+        <p>Contamos con servicios profesionales en:</p>
+        <ul>
+          <li><a href="{{ site.url }}/unas-acrilicas">Uñas Acrilicas</a></li>
+          <li><a href="{{ site.url }}/unas-gelish">Uñas Gelish</a></li>
+          <li><a href="{{ site.url }}/unas-francesas">Uñas Francesas</a></li>
+          <li><a href="{{ site.url }}/unas-francesas">Manicuria y Pedicuria</a></li>
+        </ul>
+      </div>
+    </div>
+    <p>Debido a la <strong>contingencia mundial del coronavirus COVID-19</strong> hemos adaptado nuestros servicios para seguir cuidándote, si quieres ver más información por favor lee el artículo: <a href="">¿Qué hacemos para cuidarte desde Vitaminails?</a>, o mira el siguiente video:</p>
+
+
+<h2>¿Qué dicen nuestras clientas sobre nuestro servicio?</h2>
+
+<p>Brindar una <strong>excelente atención</strong> con un <strong>servicio de calidad</strong> para tus uñas es parte fundamental de nuestra misión en Vitaminails. A continuación te dejamos algunos testimonios de nuestras clientas:</p>
+
+VID 1 / VID 2 / IG 1 / IG 2 / Mini Gal Proof
+
+{% include gallery.html folder="/images/galleries/home" %}
+
+<h4>¿Cuándo fue la última vez que hiciste algo por ti?</h4>
+
+
+<p>
+  <a href="{{ site.url }}/citas" class="citasCTA-home">
+    <img data-echo="{{ site.url }}/images/mimo-unas-acrilicas-gelish-francesas-cita.png" alt="Enlace para ir a la página para reserva una cita." title="Empieza a cuidar tus uñas haciendo click aquí!">
+  </a>
+</p>
+<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.1.0/dist/lazyload.min.js"></script>
+
+
+  </section>
+</div>
+
+
 <div class="posts">
   {% for post in paginator.posts %}
     <article class="post">
@@ -21,29 +65,6 @@ layout: default
   {% endfor %}
 
   <!-- pagination -->
-  {% if paginator.total_pages > 1 %}
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-    {% else %}
-      <span>&laquo; Prev</span>
-    {% endif %}
+  {% include pagination.html %}
 
-    {% for page in (1..paginator.total_pages) %}
-      {% if page == paginator.page %}
-        <span class="webjeda">{{ page }}</span>
-      {% elsif page == 1 %}
-        <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-      {% else %}
-        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-      {% endif %}
-    {% endfor %}
-
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-    {% else %}
-      <span>Next &raquo;</span>
-    {% endif %}
-  </div>
-  {% endif %}
 </div>

@@ -1,0 +1,2 @@
+Cual es la diferencia entre uñas acrílicas y uñas gelish
+Cual es la diferencia entre estas? acrílicas es del material que utilizamos para alargar las uñas, lo cual se necesita ya sea de tips, o un forma para escultura, y se encapsula con material acrílico. Uñas con gelish o también llamado esmalte semipermanente, es aquel esmalte que se aplica una vez realizada la manicuria y es secado en lámpara por unos 30 seg., el tiempo de durabilidad es de aprox. 15 a 21 días
