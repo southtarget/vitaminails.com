@@ -2,66 +2,202 @@
   
     {
 
-      "title"    : "Que Son",
-      "url"      : "//que-son",
-      "category" : "",
+      "title"    : "Tendencia en Uñas 2020",
+      "url"      : "//unas/tendencia-unas-2020",
+      "category" : "Unas",
+      "date"     : "July 23, 2020"
+    } ,
+  
+    {
+
+      "title"    : "Consejos para cuidar tus Uñas Gelish",
+      "url"      : "//unas-gelish/consejos-para-cuidar",
+      "category" : "UnasGelish",
+      "date"     : "July 16, 2020"
+    } ,
+  
+    {
+
+      "title"    : "¿Cómo cortar Uñas Gelish en casa?",
+      "url"      : "//unas-gelish/como-cortar-en-casa",
+      "category" : "UnasGelish",
+      "date"     : "July 15, 2020"
+    } ,
+  
+    {
+
+      "title"    : "¿Cómo realizar Uñas Acrilicas? Paso a Paso",
+      "url"      : "//unas-acrilicas/paso-a-paso",
+      "category" : "UnasAcrilicas",
+      "date"     : "July 15, 2020"
+    } ,
+  
+    {
+
+      "title"    : "¿Cuál es el beneficio de la manicuria y pedicuria?",
+      "url"      : "//manicura-y-pedicura/beneficios",
+      "category" : "ManiPedi",
+      "date"     : "July 15, 2020"
+    } ,
+  
+    {
+
+      "title"    : "¿Cómo quitar Uñas Gelish en casa?",
+      "url"      : "//unas-gelish/como-quitar-en-casa",
+      "category" : "UnasGelish",
+      "date"     : "July 14, 2020"
+    } ,
+  
+    {
+
+      "title"    : "¿Cómo evitar que se formen hongos en Uñas Acrilicas?",
+      "url"      : "//unas-acrilicas/evitar-hongos",
+      "category" : "UnasAcrilicas",
+      "date"     : "July 14, 2020"
+    } ,
+  
+    {
+
+      "title"    : "¿Cómo evitar que se formen hongos en Uñas Gelish?",
+      "url"      : "//unas-gelish/como-evitar-que-se-formen-hongos",
+      "category" : "UnasGelish",
+      "date"     : "July 13, 2020"
+    } ,
+  
+    {
+
+      "title"    : "¿Cuál es la diferencia entre Gelish Francés y Acrilico Francés?",
+      "url"      : "//unas-francesas/diferencia-entre-gelish-y-acrilico",
+      "category" : "UnasFrancesas",
+      "date"     : "July 13, 2020"
+    } ,
+  
+    {
+
+      "title"    : "¿Cúanto cuesta realizarse uñas acrilicas?",
+      "url"      : "//unas-acrilicas/cuanto-cuesta",
+      "category" : "UnasAcrilicas",
+      "date"     : "July 13, 2020"
+    } ,
+  
+    {
+
+      "title"    : "¿Cuáles uñas duran más, acrílicas o gelish?",
+      "url"      : "//unas/que-unas-duran-mas-acrilicas-o-gelish",
+      "category" : "Unas",
+      "date"     : "July 12, 2020"
+    } ,
+  
+    {
+
+      "title"    : "¿Cuáles son las Uñas Gelish Esculpidas?",
+      "url"      : "//unas-gelish/esculpidas",
+      "category" : "UnasGelish",
+      "date"     : "July 12, 2020"
+    } ,
+  
+    {
+
+      "title"    : "¿Cómo quitar Uñas Acrílicas en casa?",
+      "url"      : "//unas-acrilicas/como-quitar-en-casa",
+      "category" : "UnasAcrilicas",
+      "date"     : "July 12, 2020"
+    } ,
+  
+    {
+
+      "title"    : "Diferencia entre Uñas Acrílicas y Geslih",
+      "url"      : "//unas/diferencia-entre-acrilicas-y-gelish",
+      "category" : "Unas",
+      "date"     : "July 11, 2020"
+    } ,
+  
+    {
+
+      "title"    : "¿Porqué son tan populares las Uñas Gelish?",
+      "url"      : "//unas-gelish/porque-son-tan-populares",
+      "category" : "UnasGelish",
+      "date"     : "July 11, 2020"
+    } ,
+  
+    {
+
+      "title"    : "¿Las Uñas Francesas son acrílicas?",
+      "url"      : "//unas-francesas/son-acrilicas",
+      "category" : "UnasFrancesas",
+      "date"     : "July 11, 2020"
+    } ,
+  
+    {
+
+      "title"    : "¿Cómo cortar Uñas Acrílicas en casa?",
+      "url"      : "//unas-acrilicas/como-cortar-en-casa",
+      "category" : "UnasAcrilicas",
+      "date"     : "July 11, 2020"
+    } ,
+  
+    {
+
+      "title"    : "Diferencia entre Uñas Acrílicas y Esculpidas",
+      "url"      : "//unas/diferencia-unas-acrilicas-esculpidas",
+      "category" : "Unas",
+      "date"     : "July 10, 2020"
+    } ,
+  
+    {
+
+      "title"    : "¿Qué son las Uñas Gelish?",
+      "url"      : "//unas-gelish/que-son",
+      "category" : "UnasGelish",
+      "date"     : "July 10, 2020"
+    } ,
+  
+    {
+
+      "title"    : "Consejos para cuidar Uñas en Acrílico",
+      "url"      : "//unas-acrilicas/consejos-para-cuidar",
+      "category" : "UnasAcrilicas",
+      "date"     : "July 10, 2020"
+    } ,
+  
+    {
+
+      "title"    : "Diferencia entre manicuria tradicional y manicuria rusa",
+      "url"      : "//manicura-y-pedicura/diferencia-tradicional-y-rusa",
+      "category" : "ManiPedi",
+      "date"     : "July 10, 2020"
+    } ,
+  
+    {
+
+      "title"    : "¿Qué son los tips para uñas y cómo se aplican?",
+      "url"      : "//unas/que-son-tips-y-como-se-aplican",
+      "category" : "Unas",
       "date"     : "July  9, 2020"
     } ,
   
     {
 
-      "title"    : "Pullquotes",
-      "url"      : "//pullquotes",
-      "category" : "Uñas Acrilicas",
-      "date"     : "December 11, 2019"
+      "title"    : "¿Cómo realizar Uñas Gelish? Paso a Paso",
+      "url"      : "//unas-gelish/paso-a-paso",
+      "category" : "UnasGelish",
+      "date"     : "July  9, 2020"
     } ,
   
     {
 
-      "title"    : "Code snippets in a blog post",
-      "url"      : "//html/code/code-snippets",
-      "category" : "HTML, Code",
-      "date"     : "August 12, 2019"
+      "title"    : "¿Qué son las Uñas Francesas?",
+      "url"      : "//unas-francesas/que-son",
+      "category" : "UnasFrancesas",
+      "date"     : "July  9, 2020"
     } ,
   
     {
 
-      "title"    : "Sometimes, your post just stands for itself and doesn’t need a title. And that’s fine, too!",
-      "url"      : "//miscellaneous/no-title-posts",
-      "category" : "Miscellaneous",
-      "date"     : "August  8, 2019"
-    } ,
-  
-    {
-
-      "title"    : "Some articles are just so short that we&#39;ve to make the footer stick",
-      "url"      : "//miscellaneous/super-short-article",
-      "category" : "Miscellaneous",
-      "date"     : "July 28, 2019"
-    } ,
-  
-    {
-
-      "title"    : "This post demonstrates post content styles",
-      "url"      : "//miscellaneous/this-post-demonstrates-post-content-styles",
-      "category" : "Miscellaneous",
-      "date"     : "July 27, 2019"
-    } ,
-  
-    {
-
-      "title"    : "Some articles are just so long they deserve a really long title to see if things will break well",
-      "url"      : "//miscellaneous/super-long-article",
-      "category" : "Miscellaneous",
-      "date"     : "July 27, 2019"
-    } ,
-  
-    {
-
-      "title"    : "Introducing Reverie - A ridiculously elegant Jekyll theme",
-      "url"      : "//miscellaneous/jekyll/introducing-reverie-jekyll-theme",
-      "category" : "Miscellaneous, Jekyll",
-      "date"     : "February 13, 2019"
+      "title"    : "¿Qué son las uñas acrílicas?",
+      "url"      : "//unas-acrilicas/que-son",
+      "category" : "UnasAcrilicas",
+      "date"     : "July  9, 2020"
     } 
   
 ]

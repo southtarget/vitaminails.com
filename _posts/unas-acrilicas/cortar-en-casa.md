@@ -1,3 +1,0 @@
-Como cortar uñas acrílicas en casa?
-Para aquellas mujeres que poseen uñas acrílicas con un largo importante y no pueden acudir a su manicure, pero ya requieren de un corte, es aconsejable poseer un corta uña bastante fuerte, observar el largo que poseen ya las uñas y dónde estaría comenzando la uña natural para evitar cuando se haga el corte, no producirse un daño y aplicar pequeños cortes desde los costados.
-Pero para mayor consejo, VITAMINAILS te recomienda acudir a tu manicure, y no realizar el famoso quitado a tirones del acrílico, ya que al hacer esto, desprendemos acrílico y capas de nuestras uñas.

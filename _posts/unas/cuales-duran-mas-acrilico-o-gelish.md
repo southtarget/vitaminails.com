@@ -1,3 +1,0 @@
-Cuales uñas duran mas, acrilico o gel?
-Sin lugar a dudas las uñas que poseen mayor resistencia son las uñas en acrilico, debido al material con que están realizadas, las uñas en gel son menos resistentes quizás posean el mismo acabado que las uñas acrílicas, pero su resistencia es mucho menor. Necesito aclarar algo con respecto a este tema:
-Existen uñas acrilicas en polvo, uñas acrilicas en gel (gel constructor) y uñas en gelish, de estas tres variantes, las más resistente terminan siendo las uñas de acrílico en polvo. Pero también tiene mucho que ver cómo se aplicó, si se reforzó correctamente las anclas de tensión y la cantidad de acrílico colocado.

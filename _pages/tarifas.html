@@ -1,0 +1,22 @@
+---
+layout: page
+title: Tarifas
+permalink: /tarifas
+---
+
+<h1>Tarifas de Nuestros Servicios de Uñas</h1>
+
+{% assign servicios_count = 0 %}
+{% for servicio in site.data.servicios %}
+    {% include price-card.html nombre=servicio.nombre precio=servicio.precio duracion=servicio.duracion precio-ref=servicio.precio-ref descripcion=servicio.descripcion %}
+    {% if servicios_count == "2" %}
+        {% include ctas/citas.html %}
+    {% endif %}
+    {% if servicios_count == "6" %}
+        {% include ctas/mimos.html %}
+    {% endif %}
+    {% if servicios_count == "10" %}
+        {% include ctas/citas.html %}
+    {% endif %}
+    {% capture servicios_count %}{{ servicios_count | plus:1 }}{% endcapture %}
+{% endfor %}

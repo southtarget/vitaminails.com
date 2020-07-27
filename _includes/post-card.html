@@ -1,0 +1,18 @@
+<div class="col-6">
+    <div class="card">
+      <div class="center">
+        <div class="property-card">
+          <a href="{{ site.url }}/{{ post.url }}">
+            <div class="property-image" style="background-image:url('{% if post.cover %}{{ post.cover }}{% else %}{{ site.nocover }}{% endif %}');">
+              <div class="property-image-title">
+              </div>
+            </div>
+          </a>
+          <div class="property-description">
+            <h3>{{ post.title }}</h3>
+            <p>{{ post.excerpt }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

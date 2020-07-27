@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Citas – Vitaminails</title>
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="Citas" />
+<meta name="author" content="Natalia Carena" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="En Vitaminails ofrecemos servicios de manicuria y pedicuria, nos especializamos por ofrecer servicios de uñas acrilicas, uñas gelish y uñas francesas." />
+<meta property="og:description" content="En Vitaminails ofrecemos servicios de manicuria y pedicuria, nos especializamos por ofrecer servicios de uñas acrilicas, uñas gelish y uñas francesas." />
+<link rel="canonical" href="http://localhost:4000/citas" />
+<meta property="og:url" content="http://localhost:4000/citas" />
+<meta property="og:site_name" content="Vitaminails" />
+<script type="application/ld+json">
+{"headline":"Citas","author":{"@type":"Person","name":"Natalia Carena"},"description":"En Vitaminails ofrecemos servicios de manicuria y pedicuria, nos especializamos por ofrecer servicios de uñas acrilicas, uñas gelish y uñas francesas.","@type":"WebPage","url":"http://localhost:4000/citas","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+        <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta property="og:description" content="En Vitaminails ofrecemos servicios de manicuria y pedicuria, nos especializamos por ofrecer servicios de uñas acrilicas, uñas gelish y uñas francesas." />
+    
+    <meta name="author" content="Vitaminails" />
+
+    
+    <meta property="og:title" content="Citas" />
+    <meta property="twitter:title" content="Citas" />
+    
+
+    
+    <meta property="og:image" content="http://localhost:4000/images/og-image.jpg"/>
+    <meta property="twitter:image" content="http://localhost:4000/images/og-image.jpg"/>
+    
+    <meta property="og:site_name" content="Citas"/>
+
+    <link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Vitaminails - En Vitaminails ofrecemos servicios de manicuria y pedicuria, nos especializamos por ofrecer servicios de uñas acrilicas, uñas gelish y uñas francesas." href="http://localhost:4000/feed.xml" />
+    <link rel="canonical" href="http://localhost:4000/citas" />
+    <meta name="theme-color" content="#90d0bd">
+    <link rel="icon" type="image/png" sizes="64x64" href="http://localhost:4000/images/favicon.png">
+    
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KLH47KL');</script>
+<!-- End Google Tag Manager -->
+
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KLH47KL"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <div id="bar"></div>
+    <div class="wrapper-container">
+      <div class="wrapper-masthead">
+        <div class="container">
+          <header class="masthead clearfix">
+            <a href="http://localhost:4000/" class="site-avatar" alt=" Logo" title="">
+              <img data-echo="/images/vitaminails-unas-acrilicas-unas-gelish.png" alt="" />
+            </a>
+            <div class="site-info">
+              <p class="site-description">Belleza para tus manos y pies</p> 
+            </div>
+            
+            <p class="returnCTA"><a href="http://localhost:4000">CLICK AQUÍ PARA REGRESAR</a></p>
+            
+
+          </header>
+        </div>
+      </div>
+
+      <div class="wrapper-main">
+        <div id="main" role="main" class="container">
+          <div id="question1" class="question">
+    <p class="title">¿Vives en México?</p>
+    <p class="options">
+        <a class="no" onclick="answer(1, false);" href="#">NO</a>
+        <a class="yes" onclick="answer(1, true);" href="#">SI</a>
+    </p>
+</div>
+
+<div id="question2" class="question hide" data-question="2">
+    <p class="title">¿Vives en Quintana Roo?</p>
+    <p class="options">
+        <a class="no" onclick="answer(2, false);" href="#">NO</a>
+        <a class="yes" onclick="answer(2, true);" href="#">SI</a>
+    </p>
+</div>
+
+<div id="question3" class="question hide" data-question="2">
+    <p class="title">Escoge tu ciudad:</p>
+    <p class="multiple-options">
+        <input type="radio" name="city" id="cancun" value="Cancún"> <label for="cancun">Cancún</label><br>
+        <input type="radio" name="city" id="morelos" value="Puerto Morelos"> <label for="morelos">Puerto Morelos</label><br>
+        <input type="radio" name="city" id="playa" value="Playa del Carmen"> <label for="playa">Playa del Carmen</label><br>
+        <input type="radio" name="city" id="puerto" value="Puerto Aventuras"> <label for="puerto">Puerto Aventuras</label><br>
+        <input type="radio" name="city" id="tulum" value="Tulum"> <label for="tulum">Tulum</label><br>
+        <input type="radio" name="city" id="otra" value="Otra"> <label for="otra">Otra</label><br>
+    </p>
+    <p class="options">
+        <a class="yes" onclick="answer(3, document.querySelector('input[name=city]:checked').value);" href="#">SIGUIENTE</a>
+    </p>
+</div>
+
+<div id="question4" class="question hide" data-question="2">
+    <p class="title">¿Es para ti sola o para un grupo?</p>
+    <p class="multiple-options">
+        <input type="radio" name="amount" id="1" value="1"> <label for="1">Es para mi sola</label><br>
+        <input type="radio" name="amount" id="2" value="2"> <label for="2">Somos dos</label><br>
+        <input type="radio" name="amount" id="3" value="3"> <label for="3">Somos tres <small>10% OFF!</small></label><br>
+        <input type="radio" name="amount" id="4" value="4"> <label for="4">Somos cuatro <small>15% OFF!</small></label><br>
+        <input type="radio" name="amount" id="5" value="5"> <label for="5">Somos cinco <small>20% OFF!</small></label><br>
+        <input type="radio" name="amount" id="6" value="6"> <label for="6">Somos más de 5 chicas <small>25% OFF!</small></label><br>
+        <div class="information hide">
+            <span class="icon">!!</span> asd
+        </div>
+    </p>
+    <p class="options">
+        <a class="yes" onclick="answer(4, document.querySelector('input[name=amount]:checked').value);" href="#">SIGUIENTE</a>
+    </p>
+</div>
+
+<div id="question5" class="question hide" data-question="2">
+    <p class="title">¡Excelente! Ya casi estamos:</p>
+    <p class="multiple-options">
+
+        <label for="nombre">Tu Nombre:</label>
+        <input class="input-class" type="text" id="nombre" name="nombre">
+
+        <label for="apellido">Tu Apellido:</label>
+        <input class="input-class" type="text" id="apellido" name="apellido">
+
+        <label for="correo">Tu Correo Electrónico:</label>
+        <input class="input-class" type="text" id="correo" name="correo">
+
+        <label for="numero">Tu Número de Teléfono:</label>
+        <input class="input-class" type="text" id="numero" name="numero" value="+52">
+
+    </p>
+    <p class="options">
+        <a class="yes" onclick="validate4();" href="#">SIGUIENTE</a>
+    </p>
+</div>
+
+<div id="question6" class="question hide" data-question="2">
+    <p class="title">¿Vienes o vamos?</p>
+    <p class="multiple-options">
+        <input type="radio" name="where" id="home" value="0"> <label for="home">Vengan A MI DOMICILIO</label><br>
+        <input type="radio" name="where" id="our" value="1"> <label for="our">VOY A IR a su ubicación</label><br>
+        <div class="information">Estamos en el centro de <strong>Playa del Carmen</strong>, cerca de Av. XX y Calle XX. Apenas confirmemos tu cita te enviaremos la ubicación exacta.</div>
+    </p>
+    <p class="options">
+        <a class="yes" onclick="answer(6, document.querySelector('input[name=where]:checked').value);" href="#">SIGUIENTE</a>
+    </p>
+</div>
+
+<div id="question6b" class="question hide" data-question="2">
+    <p class="title">¿A dónde tenemos que ir?</p>
+    <p class="multiple-options">
+        ACA VA EL MAPA
+    </p>
+    <p class="options">
+        <a class="yes" onclick="answer('6B', true);" href="#">SIGUIENTE</a>
+    </p>
+</div>
+
+<div id="question7" class="question hide" data-question="2">
+    <p class="title">Escoge tus servicios</p>
+    <p class="multiple-options">
+        <input type="radio" name="amount" id="1" value="1"> <label for="1">Servicio 1</label><br>
+        <input type="radio" name="amount" id="1" value="1"> <label for="1">Servicio 2</label><br>
+        <input type="radio" name="amount" id="1" value="1"> <label for="1">Servicio 3</label><br>
+        <input type="radio" name="amount" id="1" value="1"> <label for="1">Servicio 4</label><br>
+        <input type="radio" name="amount" id="1" value="1"> <label for="1">Servicio 5</label><br>
+
+    </p>
+    <p class="options">
+        <a class="yes" onclick="answer(7, null);" href="#">SIGUIENTE</a>
+    </p>
+</div>
+
+<div id="question8" class="question hide" data-question="2">
+    <p class="title">¿Están bien estos datos?</p>
+    <p class="multiple-options" id="confirmdata"></p>
+    <p class="options">
+        <a class="no" onclick="reset();" href="#">CORREGIR ALGO</a>
+        <a class="yes" onclick="answer(8, null);" href="#">TODO ESTA BIEN</a>
+    </p>
+</div>
+
+<div id="question9" class="question hide" data-question="2">
+    <p class="title">¿Cómo quieres pagar?</p>
+    <p class="multiple-options">
+        <input type="radio" name="amount" id="1" value="1"> <label for="1">Efectivo (por OXXO)</label><br>
+        <input type="radio" name="amount" id="1" value="1"> <label for="1">Tarjeta de Crédito / Débito</label><br>
+        <input type="radio" name="amount" id="1" value="1"> <label for="1">Transferencia</label><br>
+    </p>
+    <p class="options">
+        <a class="yes" onclick="answer(9, null);" href="#">SIGUIENTE</a>
+    </p>
+</div>
+
+<div id="question10" class="question hide" data-question="2">
+    <p class="title">Tarjeta / Detalles del pago</p>
+    <p class="multiple-options">
+ola k ase
+    </p>
+    <p class="options">
+        <a class="yes" onclick="answer(10, null);" href="#">SIGUIENTE</a>
+    </p>
+</div>
+
+<script>
+function ValidateEmail(mail) {
+ if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(myForm.emailAddr.value))
+  {
+    return (true)
+  }
+    return (false)
+}
+
+function validate4() {
+    var nombre = document.querySelector('input[name=nombre]') ? document.querySelector('input[name=nombre]').value : "none";
+    var apellido = document.querySelector('input[name=apellido]') ? document.querySelector('input[name=apellido]').value : "none";
+    var correo = document.querySelector('input[name=correo]') ? document.querySelector('input[name=correo]').value : "none";
+    var numero = document.querySelector('input[name=numero]') ? document.querySelector('input[name=numero]').value : "none";
+    if ( nombre == "none" || nombre == "" )
+        alert('Necesitamos saber tu nombre para continuar.');
+    else if ( apellido == "none" || apellido == "" )
+        alert('Necesitamos saber tu apellido para continuar.');
+    else if ( (correo == "none" || correo == "") && ValidateEmail(correo) == true )
+        alert('Necesitamos saber tu correo para continuar.');
+    else if ( numero == "none" || numero == "" )
+        alert('Necesitamos saber tu numero para continuar.');
+    else
+        answer(5, true);
+}
+
+function answer(question, value, out = 0, inval = 1500) {
+    // question 1
+    if ( question == 1 ) {
+        _('question1').fade('out', out);
+        if ( value == true ) {
+            // hide question1
+            _('question2').fade('in', inval);
+
+        } else {
+            // show ops
+        }
+    }
+
+    // question 2
+    if ( question == 2 ) {
+        _('question2').fade('out', out);
+        if ( value == true ) {
+            _('question3').fade('in', inval);
+            // show question2
+        } else {
+
+            // show ops
+        }
+    }
+
+    // question 3
+    if ( question == 3 ) {
+        _('question3').fade('out', out);
+        if ( value != "Otra" ) {
+            _('question4').fade('in', inval);
+            // show question2
+        } else {
+            // show ops (ciudad)
+        }
+    }
+
+    // question 4
+    if ( question == 4 ) {
+        _('question4').fade('out', out);
+        if ( value > 0 && value < 6 ) {
+            _('question5').fade('in', inval);
+            // show question2
+        } else {
+            // error
+        }
+    }
+
+    // question 5
+    if ( question == 5 ) {
+        _('question5').fade('out', out);
+        if ( value > 0 && value < 6 ) {
+            _('question6').fade('in', inval);
+            // show question2
+        } else {
+            // error
+        }
+    }
+
+    // question 6
+    if ( question == 6 ) {
+        _('question6').fade('out', out);
+        if ( value == 0 ) {
+            _('question6b').fade('in', inval);
+            // show question2
+        } else if ( value == 1 ) {
+            _('question7').fade('in', inval);
+            // show question2
+        } else {
+            // error
+        }
+    }
+
+    // question 6b
+    if ( question == "6B" ) {
+        _('question6b').fade('out', out);
+        _('question7').fade('in', inval);
+    }
+
+    // question 7
+    if ( question == 7 ) {
+        _('question7').fade('out', out);
+        _('question8').fade('in', inval);
+
+        if ( value ) {
+            // show question2
+        } else {
+            // error
+        }
+    }
+
+    // question 8
+    if ( question == 8 ) {
+        _('question8').fade('out', out);
+        _('question9').fade('in', inval);
+
+        if ( value  ) {
+            // show question2
+        } else {
+            // error
+        }
+    }
+
+    // question 9
+    if ( question == 9 ) {
+        _('question9').fade('out', out);
+        _('question10').fade('in', inval);
+
+        if ( value  ) {
+            // show question2
+        } else {
+            // error
+        }
+    }
+
+    // question 10
+    if ( question == 10 ) {
+        _('question10').fade('out', out);
+        _('question11').fade('in', inval);
+
+        if ( value  ) {
+            // show question2
+        } else {
+            // error
+        }
+    }
+    //confirmdata
+
+}
+
+
+function _(el) {
+  if (!(this instanceof _)) {
+    return new _(el);
+  }
+  this.el = document.getElementById(el);
+}
+
+_.prototype.fade = function fade(type, ms) {
+  var isIn = type === 'in',
+    opacity = isIn ? 0 : 1,
+    interval = 50,
+    duration = ms,
+    gap = interval / duration,
+    self = this;
+
+  if(isIn) {
+    self.el.classList.remove("mystyle");
+    self.el.style.display = 'inline';
+    self.el.style.opacity = opacity;
+  }
+
+  function func() {
+    opacity = isIn ? opacity + gap : opacity - gap;
+    self.el.style.opacity = opacity;
+
+    if(opacity <= 0) self.el.style.display = 'none'
+    if(opacity <= 0 || opacity >= 1) window.clearInterval(fading);
+  }
+
+  var fading = window.setInterval(func, interval);
+}
+</script>
+        </div>
+      </div>
+      
+    </div>
+
+    
+    
+    <script src="http://localhost:4000/assets/script.js" type="text/javascript"></script>
+    
+    <script type="text/javascript">
+    var userIP = userData ? userData.city : "unknown";
+    if ( userIP != "unknown" ) {
+      document.querySelector('input[value="'+userData.city+'"]').checked = true;
+      answer(1, true, 0);
+      answer(2, true, 0);
+    }
+    </script>
+    
+
+  </body>
+</html>

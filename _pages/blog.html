@@ -1,0 +1,110 @@
+---
+layout: page
+title: Todo lo que necesitas saber sobre Uñas
+permalink: /blog
+---
+
+<h1>Todo lo que necesitas saber sobre Uñas</h1>
+
+<p>Bienvenidas al blog de Vitaminails, aquí podrás encontrar <strong>toda la información que necesitas saber sobre uñas,
+    manicuria y pedicuria</strong></strong>.</p>
+
+Los artículos de nuestro blog se dividen en las siguientes categorías:
+<ul>
+  <li><a href="/unas"><strong>Uñas</strong></a>: información general sobre las mismas, tips, tendencias.</li>
+  <li><a href="/unas-acrilicas"><strong>Uñas Acrilicas</strong></a>: todo lo que necesitas saber con respecto a uñas acrilicas.</li>
+  <li><a href="/unas-gelish"><strong>Uñas Gelish</strong></a>: o también conocidas como esmalte semipermanente.</li>
+  <li><a href="/unas-francesas"><strong>Uñas Francesas</strong></a>: tenemos información muy interesante sobre este tipo de uñas.</li>
+  <li><a href="/manicura-y-pedicura"><strong>Manicuria y Pedicuria</strong></a>: cuidados, técnicas, consejos y demás.</li>
+</ul>
+
+<p class="onlyMX">Si estas interesada en contratar nuestro <strong>servicios profesionales para tus manos, pies y uñas</strong>, te recomiendo ver nuestra
+<a href="/servicios">página de servicios</a>, <a href="/tarifas">listado de precios</a> y finalmente hacer click en el siguiente botón:</p>
+{% include ctas/citas.html %}
+
+<p>A continuación te dejo los artículos más recientes de cada una de nuestras categorías:</p>
+
+<h2>Articulos Sobre Uñas</h2>
+<div class="posts">
+  <div class="row">
+  {% assign count = 0 %}
+  {% for post in site.categories.Unas %}
+    {% if post.url %}
+      {% include post-card.html %}
+    {% endif %}
+    {% if count == "1" %}
+      {% break %}
+    {% endif %}
+    {% capture count %}{{ count | plus:1 }}{% endcapture %}
+  {% endfor %}
+  </div>
+  <div class="h-promo"><a href="{{ site.url }}/unas">Ver más sobre Uñas</a></div>
+</div>
+
+<h2>Articulos Sobre Uñas Acrílicas</h2>
+<div class="posts">
+  <div class="row">
+  {% assign count = 0 %}
+  {% for post in site.categories.UnasAcrilicas %}
+    {% if post.url %}
+      {% include post-card.html %}
+    {% endif %}
+    {% if count == "1" %}
+      {% break %}
+    {% endif %}
+    {% capture count %}{{ count | plus:1 }}{% endcapture %}
+  {% endfor %}
+  </div>
+  <div class="h-promo"><a href="{{ site.url }}/unas-acrilicas">Ver más sobre Uñas Acrílicas</a></div>
+</div>
+
+<h2>Articulos Sobre Uñas Gelish</h2>
+<div class="posts">
+  <div class="row">
+  {% assign count = 0 %}
+  {% for post in site.categories.UnasGelish %}
+    {% if post.url %}
+      {% include post-card.html %}
+    {% endif %}
+    {% if count == "1" %}
+      {% break %}
+    {% endif %}
+    {% capture count %}{{ count | plus:1 }}{% endcapture %}
+  {% endfor %}
+  </div>
+  <div class="h-promo"><a href="{{ site.url }}/unas-gelish">Ver más sobre Uñas Gelish</a></div>
+</div>
+
+<h2>Articulos Sobre Uñas Francesas</h2>
+<div class="posts">
+  <div class="row">
+  {% assign count = 0 %}
+  {% for post in site.categories.UnasFrancesas %}
+    {% if post.url %}
+      {% include post-card.html %}
+    {% endif %}
+    {% if count == "1" %}
+      {% break %}
+    {% endif %}
+    {% capture count %}{{ count | plus:1 }}{% endcapture %}
+  {% endfor %}
+  </div>
+  <div class="h-promo"><a href="{{ site.url }}/unas-francesas">Ver más sobre Uñas Francesas</a></div>
+</div>
+
+<h2>Articulos Sobre Manicuria y Pedicuria</h2>
+<div class="posts">
+  <div class="row">
+  {% assign count = 0 %}
+  {% for post in site.categories.ManiPedi %}
+    {% if post.url %}
+      {% include post-card.html %}
+    {% endif %}
+    {% if count == "1" %}
+      {% break %}
+    {% endif %}
+    {% capture count %}{{ count | plus:1 }}{% endcapture %}
+  {% endfor %}
+  </div>
+  <div class="h-promo"><a href="{{ site.url }}/manicura-y-pedicura">Ver más sobre Manicura y Pedicura</a></div>
+</div>

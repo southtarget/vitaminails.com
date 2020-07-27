@@ -1,0 +1,55 @@
+- nombre: Uñas Gelish en Manos
+  descripcion: incluye manicuria y exfoliación
+  precio: 200
+  duracion: 45 minutos a 1 hora
+
+- nombre: Uñas Gelish en Pies
+  descripcion: incluye pedicuría y exfoliación
+  precio: 250
+  duracion: 45 minutos a 1 hora
+
+- nombre: Uñas Gelish en Manos y Pies
+  descripcion: incluye manipedi y exfoliación
+  precio: 400
+  precio-ref: 450
+  duracion: entre 1:30 a 2 horas
+
+- nombre: Uñas Acrílicas en Manos
+  descripcion: "incluye manicuria y exfoliación, tips sin costo adicional"
+  precio: 500
+  duracion: 2 horas
+
+- nombre: Uñas Acrílicas en Manos + Gelish en Pies
+  descripcion: incluye manipedi y exfoliación
+  precio: 700
+  precio-ref: 750
+  duracion: entre 2:30 a 3 horas
+
+- nombre: Manicuría y Pedicuría (trad. o rusa)
+  descripcion: incluye exfoliación y baño de crema
+  precio: 250
+  duracion: 1 hora
+
+- nombre: Manicuría y Pedicuría con Baño de Parafina
+  descripcion: incluye exfoliación y baño de crema
+  precio: 400
+  precio-ref: 450
+  duracion: 2 horas
+
+- nombre: Baño de Parafina en Manos
+  precio: 100
+  duracion: 25 minutos
+
+- nombre: Baño de Parafina en Pies
+  precio: 100
+  duracion: 25 minutos
+
+- nombre: Baño de Parafina en Manos y Pies
+  precio: 150
+  precio-ref: 200
+  duracion: 40 minutos
+
+- nombre: "ADICIONAL: Acripie para uñas dañadas"
+  descripcion: solamente para uñas dañadas, precio por uña
+  precio: 30
+  duracion: 15 minutos

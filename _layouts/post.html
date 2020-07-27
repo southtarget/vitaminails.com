@@ -1,22 +1,27 @@
 ---
 layout: default
+lang: es_MX
 ---
 
 <article class="post detailed">
-  <h1><a href="{{ site.url }}/{{ page.url }}">{{ page.title }}</a></h1>
   <div class="post-top">
-      {% if post %}
-        {% assign categories = post.categories %}
-      {% else %}
-        {% assign categories = page.categories %}
-      {% endif %}
-      {% for category in categories %}
-        <strong><a alt="Enlace para ver más sobre {{category}}" title="Ver más articulos sobre {{category}}" href='{{site.url}}/{{category|slugize|downcase|replace:"ñ","n"|replace:" ","-"}}'>{{category}}</a></strong>
-        {% unless forloop.last %}&nbsp;{% endunless %}
-      {% endfor %}
-      » {{ page.title }}
+    {% if post %}
+      {% assign categories = post.categories %}
+    {% else %}
+      {% assign categories = page.categories %}
+    {% endif %}
+    {% for category in categories %}
+      <strong><a alt="Enlace para ver más sobre {{category}}" title="Ver más articulos sobre {{category}}" href='{{site.url}}/{{category|slugize|downcase|replace:"ñ","n"|replace:"manipedi","manicura-y-pedicura"|replace:"unas","unas"|replace:"francesas","-francesas"|replace:"gelish","-gelish"|replace:"acrilicas","-acrilicas"|replace:"uñas","unas"|replace:" ","-"}}'>{{category|replace:"ManiPedi","Manicura y Pedicura"|replace:"Unas","Uñas "}}</a></strong>
+      {% unless forloop.last %}&nbsp;{% endunless %}
+    {% endfor %}
+    » {{ page.title }}
   </div>
-    
+  <h1><a href="{{ site.url }}/{{ page.url }}">{{ page.title }}</a></h1>
+
+  {% if page.cover %}
+  <img src="{{site.url}}/{{ page.cover }}" title="{{ page.excerpt }}" alt="{{ page.excerpt }}" />
+  {% endif %}
+
   <div class="entry">
     {{ content }}
   </div>
@@ -34,9 +39,5 @@ layout: default
       </div>
     </div>
   </div>
-
-  <!--<div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>-->
 
 </article>

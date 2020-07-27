@@ -1,16 +1,23 @@
+function displayMX() {
+  var cols = document.getElementsByClassName('onlyMX');
+  for(i = 0; i < cols.length; i++) {
+    cols[i].style.display = 'block';
+  }
+}
+
 function geoIP() {
     var user = {
-      first_name: null,
-      last_name: null,
-      email: null,
-      ip: null,
-      prefix: null,
-      country: null,
-      state: null,
-      city: null,
-      zip: null,
-      timezone: null,
-      currency: null
+      first_name: undefined,
+      last_name: undefined,
+      email: undefined,
+      ip: undefined,
+      prefix: undefined,
+      country: undefined,
+      state: undefined,
+      city: undefined,
+      zip: undefined,
+      timezone: undefined,
+      currency: undefined
     };
   
     var req = new XMLHttpRequest();
@@ -31,13 +38,17 @@ function geoIP() {
     req.send(null);
   }
   
-  
-  var userData = JSON.parse(localStorage.getItem('user'));
-  if(typeof userData === 'undefined' || userData.hasOwnProperty("ip") == false) {
-    // We don't know about this user
-    geoIP();
-    console.log(1);
-  } else {
-    // We know about this user
-    console.log(userData);
-  }
+// Get Stored UserData, if any
+var userData = JSON.parse(localStorage.getItem('user'));
+
+// Get the userIP, if we don't know, run GEOIP
+var userIP = userData ? userData.ip : "unknown";
+if ( userIP == "unknown" ) {
+  geoIP();
+}
+
+// Check UserLocation
+var userLocation = userData ? userData.country : "unknown";
+if ( userLocation = "MX" ) {
+  displayMX();
+}
