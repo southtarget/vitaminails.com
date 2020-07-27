@@ -1395,6 +1395,21 @@ div.h-promo a {
   .row div {
     padding: 1.5%;
   }
+
+  .col-6 {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    display: block;
+  }
+
+  .property-description {
+    height: 9em !important;
+  }
+
+  .property-image {
+    height: 12em  !important;
+  }
 }
 /* viewport <= 500px */
 @media screen and (max-width: 500px) {
